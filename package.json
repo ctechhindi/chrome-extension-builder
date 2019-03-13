@@ -1,0 +1,28 @@
+{
+  "name": "chrome-extension-builder",
+  "version": "0.0.4",
+  "description": "chrome extension builder",
+  "repository": {
+    "type": "git",
+    "url": "clhttps://github.com/ctechhindi/chrome-extension-builder.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "builder"
+  ],
+  "author": "jeevan15498@gmail.com",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "copy-dir": "^0.4.0",
+    "file-system": "^2.2.2",
+    "jsonfile": "^5.0.0",
+    "npx": "^10.2.0",
+    "read-json-file": "^1.0.1"
+  }
+}
